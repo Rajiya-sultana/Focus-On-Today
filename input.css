@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.completed .custom-checkbox {
+    @apply bg-lime-600 text-lime-600;
+}
+
+.completed .check-icon {
+    @apply block;
+}
+
+
+
+.completed .goal-input {
+    @apply text-lime-600 font-semibold line-through;
+}

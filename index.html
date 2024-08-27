@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus on Today</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-green-600/5 font-sans">
+    <main class="pt-0 pb-8 px-4">
+      <h1 class="text-4xl font-bold text-center text-lime-600 my-7">
+        Focus on <span class="text-amber-900">Today</span>
+      </h1>
+      <div
+        class="bg-white max-w-[500px] mx-auto shadow-lg rounded-2xl py-8 px-14"
+      >
+        <h2 class="flex items-center subtitle">
+          <span class="text-2xl font-bold">Today</span>
+          <img class="ml-4" src="/img/Sun.png" alt="sun" />
+        </h2>
+        <p class="progress-label text-sm text-gray-500 font-semibold mb-6 mt-4">
+          Raise the bar by completing your goals!
+        </p>
+
+        <div
+          class="progress-bar bg-green-500 bg-opacity-10 h-8 rounded-2xl mb-10"
+        > 
+          <div
+            class="progress-value h-full w-0 bg-lime-600 text-[10px] font-bold overflow-hidden text-lime-50 flex items-center transition-all duration-300"
+          >
+            <span class="pl-6 min-w-max">0/3 Completed</span>
+          </div>
+          <p class="error-label text-sm mt-1 text-red-500 hidden">
+            Please set all the 3 goals!
+          </p>
+        </div>
+
+        <div
+          class="goal-container border-black border-opacity-10 h-[62px] border-[1px] rounded-2xl mb-10 flex items-center py-0 px-5 bg-white cursor-pointer"
+        >
+          <div
+            class="custom-checkbox w-6 h-6 border-[2px] shrink-0 rounded-full border-amber-900 border-opacity-30 flex items-center justify-center transition-colors duration-300"
+          >
+            <img
+              class="check-icon hidden"
+              src="img/Vector 1.png"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            id="first"
+            class="goal-input border-none pl-5 outline-none text-lg w-full self-stretch transition-colors duration-300"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+
+        <div
+          class="goal-container border-black border-opacity-10 h-[62px] border-[1px] rounded-2xl mb-10 flex items-center py-0 px-5 bg-white cursor-pointer"
+        >
+          <div
+            class="custom-checkbox w-6 h-6 border-[2px] shrink-0 rounded-full border-amber-900 border-opacity-30 flex items-center justify-center transition-colors duration-300"
+          >
+            <img
+              class="check-icon hidden"
+              src="img/Vector 1.png"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            id="second"
+            class="goal-input border-none pl-5 outline-none text-lg w-full self-stretch transition-colors duration-300"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+
+        <div
+          class="goal-container border-black border-opacity-10 h-[62px] border-[1px] rounded-2xl mb-10 flex items-center py-0 px-5 bg-white cursor-pointer"
+        >
+          <div
+            class="custom-checkbox w-6 h-6 border-[2px] shrink-0 rounded-full border-amber-900 border-opacity-30 flex items-center justify-center transition-colors duration-300"
+          >
+            <img
+              class="check-icon hidden"
+              src="img/Vector 1.png"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            id="third"
+            class="goal-input border-none pl-5 outline-none text-lg w-full self-stretch transition-colors duration-300"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+
+        <p class="quote font-bold text-center">“Move one step ahead, today!”</p>
+        <p class="made-with font-bold text-center text-sm text-gray-500">
+          Made with ❤️ by Rajiya Sultana
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
